@@ -31,7 +31,8 @@ assetsSummary:
   - BehavioralEpochs
   - ProcessingModule
 citation: Nair, Aditya; Kennedy, Ann (2024) Stimulus-specific hypothalamic encoding
-  of a persistent defensive state (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001182/draft
+  of a persistent defensive state (Version 0.240827.1656) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.001182/0.240827.1656
 contributor:
 - affiliation: []
   email: adi.nair@caltech.edu
@@ -79,14 +80,15 @@ description: 'This dataset provides neural and behavioural annotation data from 
 
 
   '
+doi: 10.48324/dandi.001182/0.240827.1656
 ethicsApproval: []
-id: DANDI:001182/draft
+id: DANDI:001182/0.240827.1656
 identifier: DANDI:001182
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001182/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001182/0.240827.1656/assets.yaml
 name: Stimulus-specific hypothalamic encoding of a persistent defensive state
 protocol: []
 publishedBy:
@@ -113,6 +115,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001182/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001182/0.240827.1656
+version: 0.240827.1656
 wasGeneratedBy: []
