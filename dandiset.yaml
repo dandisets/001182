@@ -7,11 +7,31 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 87598800
+  numberOfFiles: 15
+  numberOfSubjects: 15
   schemaKey: AssetsSummary
-citation: Nair, Aditya (2024) Stimulus-specific hypothalamic encoding of a persistent
-  defensive state (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001182/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - BehavioralEpochs
+  - ProcessingModule
+citation: Nair, Aditya; Kennedy, Ann (2024) Stimulus-specific hypothalamic encoding
+  of a persistent defensive state (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001182/draft
 contributor:
 - affiliation: []
   email: adi.nair@caltech.edu
@@ -40,11 +60,22 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: ann.kennedy@northwestern.edu
+  includeInCitation: true
+  name: Kennedy, Ann
+  roleName:
+  - dcite:Author
+  - dcite:DataManager
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  schemaKey: Person
 dateCreated: '2024-08-27T15:59:04.324156+00:00'
+datePublished: '2024-08-27T16:56:58.537347+00:00'
 description: 'This dataset provides neural and behavioural annotation data from the
   paper: "Stimulus-specific hypothalamic encoding of a persistent defensive state".
-  Data is stored in the NWB or HDF5 format and contains GCaMP traces, behavioural
-  annotation (timing of behaviour) and other metadata.
+  Data is stored in the NWB format and contains GCaMP traces, behavioural annotation
+  (timing of behaviour) and other metadata.
 
 
   '
@@ -58,6 +89,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001182/versions/draft/assets/
 name: Stimulus-specific hypothalamic encoding of a persistent defensive state
 protocol: []
+publishedBy:
+  endDate: '2024-08-27T16:56:58.537347+00:00'
+  id: urn:uuid:895921a6-9e2e-4e4c-9468-4851bed5d5aa
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-08-27T16:56:58.537347+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:2928acce-238a-4706-8a24-f808e6d35c26
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1038/s41586-020-2728-4
   name: Stimulus-specific hypothalamic encoding of a persistent defensive state
